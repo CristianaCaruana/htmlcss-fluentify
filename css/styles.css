@@ -63,6 +63,7 @@ nav button {
 .green {
   background-color: #64de82;
   color: white;
+  padding: 11px;
 }
 
 img {
@@ -121,6 +122,79 @@ button {
 
 .greystring p {
   font-size: 20px;
+  color: #727272;
 }
 
 /*Seconda sezione*/
+.primoblocco,
+.secondoblocco,
+.terzoblocco {
+  width: 26,666%;
+  float: left;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 10px;
+}
+
+.primoblocco img,
+.secondoblocco img,
+.terzoblocco img {
+  width: 200px;
+  height: 200px;
+  margin-left: 50%;
+  transform: translate(-50%);
+  padding-bottom: 20px;
+}
+
+.primoblocco h3,
+.secondoblocco h3,
+.terzoblocco h3 {
+  color: #64de82;
+}
+
+.primoblocco p,
+.secondoblocco p,
+.terzoblocco p {
+  color: #727272;
+  padding-top: 20px;
+  line-height: 25px;
+}
+
+hr {
+  width: 100%;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.quartoblocco {
+  margin-left: 5%;
+  width: 45%;
+  height: 200px;
+  float: left;
+}
+
+.quintoblocco {
+  margin-right: 5%;
+  width: 45%;
+  height: 200px;
+  float: right;
+}
+
+.quintoblocco h2 {
+  padding: 25px;
+  line-height: 35px;
+}
+
+.quintoblocco p {
+  padding: 10px;
+  line-height: 25px;
+  color: #727272;
+  padding-left: 25px;
+}
+
+.quintoblocco a {
+  color: #294681;
+  font-size: 13px;
+  padding-left: 25px;
+  text-decoration: underline;
+}
