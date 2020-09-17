@@ -1,0 +1,126 @@
+/*General style*/
+*{
+  margin: 0;
+  padding-left: 0;
+  box-sizing: border-box;
+}
+
+*{
+  font-family: Roboto, sans-serif;
+}
+
+a,
+p {
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  border-style: none;
+  border-radius: 5px;
+  min-width: 100px;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/*Header*/
+/*Nav*/
+header {
+  width: 100%;
+  background-color: #294681;
+}
+
+.firstpart {
+  height: 550px;
+  background-image: url('../img/background-header.png');
+  background-size: 1000px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  position: relative;
+}
+
+nav ul li,
+nav button {
+  display: inline-block;
+  float: left;
+  padding: 10px;
+}
+
+.login {
+ background-color: #294681;
+ color: white;
+ border: 1px solid white;
+}
+
+.green {
+  background-color: #64de82;
+  color: white;
+}
+
+img {
+  float: left;
+  margin-left: 5%;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+ul li,
+button {
+  margin-top: 10px;
+}
+
+.diventatutor {
+  padding-left: 30px;
+}
+
+button {
+  margin-left: 10px;
+  padding-right: 5%;
+}
+
+/*Parte centrale header*/
+.secondpart {
+  position: absolute;
+  top: 180px;
+  left: 5%;
+}
+
+.secondpart h1 {
+  color: white;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.secondpart button {
+  padding: 20px;
+}
+
+/*Prima sezione*/
+.greystring {
+  height: 150px;
+  background-color: #bcbcbc;
+}
+
+.greystring h2,
+.greystring p {
+  text-align: center;
+}
+
+.greystring h2 {
+  padding: 20px;
+  padding-top: 40px;
+}
+
+.greystring p {
+  font-size: 20px;
+}
+
+/*Seconda sezione*/
